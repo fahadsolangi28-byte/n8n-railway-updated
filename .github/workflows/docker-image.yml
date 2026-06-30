@@ -1,4 +1,4 @@
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:2.27.0
 EXPOSE 5678
 ENV N8N_RUNNERS_ENABLED=true
 ENV N8N_RUNNERS_MODE=internal
